@@ -58,13 +58,15 @@ for(let key in team) {
 
     const member = `
         <li>
+            Name:<br>
             ${team[key].nome}
         </li>
         <li>
+            Role:<br>
             ${team[key].ruolo}
         </li>
         <li>
-            ${team[key].foto}
+            <img src="${team[key].foto}">
         </li> <br>
 
     `;
